@@ -127,7 +127,7 @@
                 System.out.println("Вы проиграли!");
             }
             if (CheckGame() == ' ' && !CanMove()) {
-                System.out.println("STANDOFF!");
+                System.out.println("Ничья!");
             }
         }
 
